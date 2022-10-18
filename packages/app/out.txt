@@ -1,0 +1,34 @@
+yarn run v1.22.19
+$ sfe build --mode production
+  ____   ___  _   _ _____ _   _  ____ _   _ 
+ / ___| / _ \| | | |_   _| | | |/ ___| \ | |
+ \___ \| | | | | | | | | | |_| | |   |  \| |
+  ___) | |_| | |_| | | | |  _  | |___| |\  |
+ |____/ \___/ \___/  |_| |_| |_|\____|_| \_|
+                                            
+{ index: './src/index.js' }
+[
+  HtmlWebpackPlugin {
+    userOptions: {
+      filename: './/index.html',
+      template: './src/templates/index.ejs',
+      title: undefined,
+      chunks: [Array],
+      env: 'production',
+      scriptLoading: 'blocking',
+      minify: false
+    },
+    version: 5
+  }
+]
+
+assets by path [1m[32mjs/*.js[39m[22m 288 KiB
+  asset [1m[32mjs/chunk-vendors.b8e53cdb.js[39m[22m 219 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [1m[32m[minimized][39m[22m (name: chunk-vendors) (id hint: vendors) 1 related asset
+  asset [1m[32mjs/jquery.min.js[39m[22m 65.3 KiB [1m[32m[emitted][39m[22m [from: public/js/jquery.min.js] [1m[32m[copied][39m[22m [1m[32m[minimized][39m[22m
+  asset [1m[32mjs/index.b8e53cdb.js[39m[22m 2.83 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [1m[32m[minimized][39m[22m (name: index) 1 related asset
+asset [1m[32mcss/index.b8e53cdb.css[39m[22m 6.32 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m (name: index) 1 related asset
+asset [1m[32m.//index.html[39m[22m 467 bytes [1m[32m[emitted][39m[22m
+Entrypoint [1mindex[39m[22m 229 KiB (1.09 MiB) = [1m[32mjs/chunk-vendors.b8e53cdb.js[39m[22m 219 KiB [1m[32mcss/index.b8e53cdb.css[39m[22m 6.32 KiB [1m[32mjs/index.b8e53cdb.js[39m[22m 2.83 KiB 3 auxiliary assets
+webpack 5.74.0 compiled [1m[32msuccessfully[39m[22m in 8602 ms
+
+Done in 11.85s.

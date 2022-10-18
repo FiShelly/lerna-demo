@@ -1,0 +1,9 @@
+<div class="app" style="visibility: <%= props.isInApp ? 'hidden' : 'visible' %>">
+    <div class="logo"></div>
+    <% if ( props && props.title ) { %>
+        <div class="name">
+            <span class="gap">|</span><span class="category">${ props.title || '' }</span>
+        </div>
+    <% } %>
+    <div class="open"><a href="javascript:void(0)" id="open">${ props.btnText || '打开APP' }</a></div>
+</div>
